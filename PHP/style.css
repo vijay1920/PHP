@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+
+
+
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(herobc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.imagev{
+width: auto;
+height: 100px;
+position: absolute;
+top: 31%; left: 43.5%;
+
+z-index: 1;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{position: fixed;
+    top: 23% ;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+}
+.form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 2px solid rgba(184, 184, 184, 0.651);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    position:absolute;
+    top:30%;left:35%;
+}
+.inpu
+{
+    position: absolute;
+    top: 55%;
+    left:21.5%;
+
+}
+input{
+   
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    position: absolute;
+    bottom: 8% ; left: 42.5%;
+    border:0;
+    background-color: rgb(22, 123, 255);
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    height: 18px;
+    width: 250px;
+    background-color: rgba(250, 235, 215, 0.719);
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+
+/* INDEX PAGE ENDS */
+
+
